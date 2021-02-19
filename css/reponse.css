@@ -1,0 +1,397 @@
+@charset "utf-8";
+
+@media all and (max-width:1430px){
+	.section1-bev3-txt{bottom:400px;left:76%;max-width:180px;}
+	img.starbg{display:none;}
+	img.starbg2{display:block;left:0px;height:335px;}
+
+	#section3>div{height:335px;}	
+	#section3>div>ul{height:335px;}/* 배경 */
+	#section3>div>ul>li{height:335px;}	
+	.section3-content{
+		height:335px;
+	}
+	img.starTitle{margin-top:-55px;left:20px;}
+
+	.section3-right-btn-wrap1{position:relative; left:20px; top:0; margin-top:0; padding:10px 0 30px 0;}
+	.section3-right-btn-wrap2{position:relative; left:20px; top:0; margin-top:0; padding-top:10px;}
+
+	
+	.section3-content>ul>li:nth-child(2)    {padding-top:25px;}
+	.section3-content>ul>li:nth-child(2)>img{padding:0 20px;}	
+
+	.section3-right-btn-wrap>li{margin-bottom:0;}	
+	
+
+}
+
+
+
+
+
+@media all and (max-width:1280px){
+	
+			
+
+	#footer>div>ul>li:nth-child(3){line-height:160%;}
+		
+	.footer-sitemap{width:100%; max-width:600px; margin:0 auto;}
+	.footer-sitemap>li{float:left;width:33.333%;text-align:left;}
+	.footer-sitemap>li>a{color:#ccc;font-size:14px;font-weight:600;}
+	.footer-sitemap>li>ul{width:100%;padding:10px 0;}
+	.footer-sitemap>li>ul>li{padding:5px 0;}
+	.footer-sitemap>li>ul>li>a{color:#ccc;font-size:12px;}
+	
+}	
+	
+@media all and (max-width:1100px){
+	.event-2019-summer{top:140px;left:100%;margin-left:-141px;}	
+
+	.section3-right-btn-wrap1{left:10%;}
+	.section3-right-btn-wrap2{left:10%;}
+	.section3-content>ul>li:nth-child(2)>img{padding:0 10%;}
+	
+	/* 해상도 1100이하이면 3개씩 롤링하는 슬라이드로 변경 view 549픽셀 */
+	.footSlide-view{width:549px;}  
+
+	
+	
+}
+
+@media all and (max-width:960px){ /*<=960*/
+	.mobile{display:block;}
+	.pc{display:none;}
+	#header{height:68px; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5;}
+	#header>div{height:68px;}
+	#header>div>ul>li{height:68px;}	
+	#header>div>ul>li:first-child>h1{padding:12px 10px;}
+	#header>div>ul>li:first-child>h1>a>img{width:45px;}
+	
+	#main{padding-top:70px;}
+	.event-2019-summer{top:90px;}
+	
+	.section1-bev1		{bottom:55px;	left:28.3%;}
+	.section1-bev1-txt	{top:70px;		left:22%;}
+	.section1-bev2		{bottom:160px;	left:47%;}
+	.section1-bev2-txt	{bottom:90px;	left:45%;}
+	.section1-bev3		{bottom:54px;	left:68%;}
+	.section1-bev3-txt	{bottom:400px;	left:66%;}
+	
+
+	img.starbg2{display:block;left:0px;height:395px;}
+
+	#section3>div{height:395px;}	
+	#section3>div>ul{height:395px;}/* 배경 */
+	#section3>div>ul>li{height:395px;}	
+	.section3-content{
+		height:395px;
+	}
+
+	.section3-content>ul>li:nth-child(2)>img.reward_txt1   {display:none;}
+	.section3-content>ul>li:nth-child(2)>img.reward_txt2   {display:block;}
+	.section3-content>ul>li:nth-child(2)>img.egiftCard_txt1{display:none;}
+	.section3-content>ul>li:nth-child(2)>img.egiftCard_txt2{display:block;}
+	
+	.section3-right-btn-wrap1{padding:10px 0 10px 0;}
+	.section3-content>ul>li:nth-child(2){padding-top:20px;}
+	
+	.section3-right-btn-wrap1{left:20%;}
+	.section3-right-btn-wrap2{left:20%;}
+	.section3-content>ul>li:nth-child(2)>img{padding:0 20%;}
+	
+	
+	
+	
+	#section4{height:auto;}	
+	#section4>div{height:auto;padding:150px 0;}	
+
+		.section4-ani1{position:relative; top:-1000px; left:0; margin-top:0; margin-left:0; width:100%;text-align:center; padding-bottom:100px;}
+		.section4-ani2{position:relative; top:1000px; margin-top:0; left:0; margin-left:0; width:100%;text-align:center;}
+		
+		.section4-ani2>img:nth-child(1){width:100%; max-width:251px;}
+		.section4-ani2>img:nth-child(2){width:100%; max-width:326px;}
+
+		.section4-ani2>a{
+			margin-top:30px;
+			width:200px;
+			padding:20px 0;
+			font-size:18px;			
+		}
+	
+	
+	
+	#section5{height:auto;}	
+	#section5>div{height:auto;padding:50px 0 50px 30px; box-sizing:border-box;}
+		.section5-star-r-left{z-index:2; display:block;position:relative; left:0; top:0; width:100%;height:80px;background-size:auto 80px;margin-bottom:50px;}	
+
+		.section5-starbucks-reserve{z-index:2; position:relative; left:0; top:0; margin-top:0;}
+		.section5-starbucks-reserve>li>img{width:45%;}
+		.section5-starbucks-reserve>li>a{display:block; width:120px;}
+		.section5-starbucks-reserve>li:last-child{padding-top:30px;}
+		.section5-star-r-right{z-index:1; position:absolute; right:0; top:0; width:60%; height:100%; background-size:100% auto; opacity:1;}
+
+	
+	
+	
+
+
+		#section6{height:auto; background-image:url(../img/mob_fav_prod_bg_new.jpg); background-size:cover; background-attachment:scroll; }
+		#section6>div{height:auto; padding:100px 0;}
+			.section6-19_summer_fav{position:relative;top:0; left:0; width:100%; max-width:666px; margin:0 auto; padding-bottom:150px;}
+			
+			.section6-left-wrap{position:relative;top:0;left:0;width:100%;}
+			
+			.section6-left-wrap>li{position:relative;left:0;width:100%;text-align:center;}
+			.section6-left-wrap>li>img.sec6PcImg1{display:none;width:100%;max-width:258px;}
+			.section6-left-wrap>li>img.sec6PcImg2{display:none;width:100%;max-width:362px;}
+			.section6-left-wrap>li>img.sec6MobileImg1{display:inline-block; width:100%; max-width:350px;}
+			.section6-left-wrap>li>img.sec6MobileImg2{display:inline-block; width:100%; max-width:440px;}
+		
+			
+			
+			.section6-left-wrap>li:nth-child(1){left:0; top:-200px; opacity:0; transition:all 2s;}
+			.section6-left-wrap>li:nth-child(1).addSec6Ani2{left:0; top:0;  opacity:1;  transition:all 5s;}
+			
+			.section6-left-wrap>li:nth-child(2){left:0; top:200px; opacity:0; transition:all 2s;}
+			.section6-left-wrap>li:nth-child(2).addSec6Ani2{left:0; top:0;  opacity:1; transition:all 5s;}
+			
+			.section6-left-wrap>li:nth-child(3){opacity:0; transition:all 2s;}
+			.section6-left-wrap>li:nth-child(3).addSec6Ani2{opacity:1; transition:all 5s;}
+		
+		
+
+	#section7{height:auto; background-attachment:scroll; }	
+	#section7>div{height:auto; padding:150px 0;}
+		.section7-reserve_medal{
+				margin-top:0;
+		}
+		
+		
+		
+		
+		
+	#section8{height:auto;}	
+	#section8>div{height:auto; padding:100px 0;}
+	
+		.section8-element-1{z-index:1;display:block;position:absolute; top:0; left:50%; margin-left:-200px; width:100%; max-width:300px;}
+		.section8-element-1>img{width:100%;}	
+		
+		.section8-element-2{z-index:2;display:block;position:relative;top:50px;left:50%;  width:100%; max-width:200px; }	
+		.section8-element-2>img{width:100%;}	
+
+		.section8-element-3{position:relative; top:0; padding-top:90px; left:0; width:100%;}
+		.section8-element-3>li{text-align:center;}
+		.section8-element-3>li>img.sec8pcImg1{display:none; width:100%; max-width:388px;}
+		.section8-element-3>li>img.sec8MobileImg1{display:inline-block; width:100%; max-width:380px;}
+		.section8-element-3>li>img.sec8pcImg2{display:none; width:100%; max-width:366px;}
+		.section8-element-3>li>img.sec8MobileImg2{display:inline-block; width:100%; max-width:440px;}
+		
+		
+		
+		
+		.section8-element-3>li>a{display:inline-block; width:120px; padding:10px 0; text-align:center; color:#222; border:2px solid #222;margin-right:5px;border-radius:3px;transition:all 1s;}
+		.section8-element-3>li>a:hover{background:#222;color:#fff;transition:all 1s;}
+
+		.section8-element-3>li:nth-child(1){left:0;  top:-200px; opacity:0; transition:all 1s; padding-bottom:30px;}
+		.section8-element-3>li:nth-child(1).addSec8Ani2{left:0;  top:0; opacity:1;  transition:all 2s;}
+		
+		.section8-element-3>li:nth-child(2){left:0; top:200px; opacity:0; transition:all 1s; padding-bottom:30px;}
+		.section8-element-3>li:nth-child(2).addSec8Ani2{left:0; top:0; opacity:1; transition:all 2s;}
+		
+		.section8-element-3>li:nth-child(3){left:0; opacity:0 transition:all 1s;}
+		.section8-element-3>li:nth-child(3).addSec8Ani2{left:0; opacity:1; transition:all 2s;}
+		.section8-element-4{right:0px;width:200px;}	
+		
+		
+
+
+
+
+		
+		.footer-sitemap{width:auto; max-width:600px; margin:0 auto; padding:0 60px;}
+		.footer-sitemap>li{float:left;width:50%;text-align:left;}
+
+			
+		
+}
+
+
+@media all and (max-width:800px){
+	#section1>div{height:1000px;}		
+	.section1-bev1		{bottom:405px;	left:10%;}
+	.section1-bev1-txt	{top:70px;		left:7%;}
+	.section1-bev2		{bottom:510px;	left:40%;}
+	.section1-bev2-txt	{bottom:440px;	left:37%;}
+	.section1-bev3		{bottom:404px;	left:68%;}
+	.section1-bev3-txt	{bottom:750px;	left:66%;}
+	
+	.section1-bev4		{top:650px;		left:38%;}
+	.section1-bev4-txt	{top:920px;		left:43%;}
+	
+	.promotionBtn-wrap{right:-150px;}
+	
+	.section3-right-btn-wrap1{left:35%;}
+	.section3-right-btn-wrap2{left:35%;}
+	.section3-content>ul>li:nth-child(2)>img{padding:0 35%;}	
+
+
+}
+
+@media all and (max-width:700px){
+	.section6-19_summer_fav{width:80%;}
+			
+}
+@media all and (max-width:660px){
+	
+	.event-2019-summer{top:90px;left:100%;max-width:110px;margin-left:-110px;}	
+	
+	.section2-row1-wrap>ul>li{float:none;height:62px;padding:15px 0;}
+	.section2-row1-wrap>ul>li:nth-child(1){width:100%;}	
+	.section2-row1-wrap>ul>li:nth-child(2){width:100%;}	
+	.moreBtn-wrap{right:10px;top:0;}
+
+	.section3-content>ul>li:nth-child(1){display:none;}
+	.section3-content>ul>li:nth-child(2){width:100%;padding:40px 0; text-align:center;}
+	
+	.section3-right-btn-wrap1{left:0;margin: auto; padding:20px 0 50px 0;}
+	.section3-right-btn-wrap2{left:0;margin:0 auto; padding:20px 0 0 0;}
+
+
+	
+	.section3-content>ul>li:nth-child(2)>img{padding:0;}
+
+	.section3-content>ul>li:nth-child(2)>img.reward_txt1   {display:none;}
+	.section3-content>ul>li:nth-child(2)>img.reward_txt2   {display:none;}
+	.section3-content>ul>li:nth-child(2)>img.reward_txt3   {display:inline-block;width:55%;padding-bottom:40px;}
+	.section3-content>ul>li:nth-child(2)>img.reward_txt4   {display:inline-block;width:55%;}	
+	
+	.section3-content>ul>li:nth-child(2)>img.egiftCard_txt1{display:none;}
+	.section3-content>ul>li:nth-child(2)>img.egiftCard_txt2{display:none;}
+	.section3-content>ul>li:nth-child(2)>img.egiftCard_txt3{display:inline-block;width:55%;}
+	
+	#section3>div{height:auto;}	
+	#section3>div>ul{height:auto;}/* 배경 */
+	#section3>div>ul>li{height:auto;}	
+	.section3-content{
+		height:auto;
+	}
+	
+
+
+
+	
+	#section5>div{height:1174px;padding:50px 0; box-sizing:border-box;  text-align:center;}
+		.section5-star-r-left{z-index:2; display:block;position:relative; left:0; top:0; width:100%;height:80px; background-size:auto 80px; background-position:50% 50%;;margin-bottom:50px;}	
+
+		.section5-starbucks-reserve{z-index:2; position:relative; width:100%; left:0; top:0; margin-top:0; text-align:center;}
+		.section5-starbucks-reserve>li>img:nth-child(1){display:none;}
+		.section5-starbucks-reserve>li>img:nth-child(2){display:inline-block;width:80%;}
+		.section5-starbucks-reserve>li>a{display:inline-block; width:200px; padding:20px 0; font-size:18px;  margin-left:-20px;}
+		.section5-starbucks-reserve>li:last-child{ position:absolute; bottom:-750px; left:0; padding-top:30px;}
+		
+		.section5-star-r-right{z-index:1; position:absolute; right:0; top:0; width:100%; height:100%; background-image:url(../img/m_19_summer_reserve2_bg3.png); background-size:cover; opacity:1;}
+	
+	
+		#section6{height:auto; background-image:url(../img/mob_fav_prod_bg_new.jpg); background-size:660px auto; background-repeat:no-repeat; }
+
+		.section8-element-4{width:180px;}	
+
+		
+
+		
+		.footer-sitemap{width:100%; max-width:100%; margin:0 auto; padding:0;}
+		.footer-sitemap>li{float:none;width:100%;text-align:left;padding:0;margin:0;}
+		.footer-sitemap>li>a{display:block; padding:15px 20px; background:#554c46 url(../img/mobile_footer_arrow_down.png) no-repeat 97% 50%; background-size:12px auto; color:#ddd; font-size:16px; font-weight:600;}
+		.footer-sitemap>li>ul{width:100%;padding:0;}
+		.footer-sitemap>li>ul>li{padding:0;}
+		.footer-sitemap>li>ul>li>a{display:block; padding:10px 20px; background:#645952; color:#e6dbd3; font-size:14px; font-weight:600; }
+			
+		
+		
+		
+		
+		
+}
+
+
+
+@media all and (max-width:600px){
+	#section1>div{height:1000px;}		
+	.section1-bev1		{bottom:405px;	left:7%;}
+	.section1-bev1-txt	{top:70px;		left:3%;}
+	.section1-bev2		{bottom:510px;	left:37%;}
+	.section1-bev2-txt	{bottom:440px;	left:34%;}
+	.section1-bev3		{bottom:404px;	left:68%;}
+	.section1-bev3-txt	{bottom:750px;	left:66%;}
+	
+	.section1-bev4		{top:650px;		left:35%;}
+	.section1-bev4-txt	{top:920px;		left:40%;}
+	.promotionBtn-wrap{right:-70px;}
+	
+	
+	/* 해상도 600이하이면 1개씩 롤링하는 슬라이드로 변경 view 183픽셀 */
+	.footSlide-view{width:183px;}
+
+	
+	
+		
+	
+	
+}
+
+
+
+@media all and (max-width:500px){
+	#section1>div{height:auto; padding-bottom:50px;}		
+	.section1-bev1		{padding-top:70px;display:block;position:relative;top:0;left:0;max-width:100%;text-align:center;text-indent:40px;}
+	.section1-bev1-txt	{display:block;position:relative;top:0;left:0;max-width:100%;text-align:center; margin-top:-30px;}
+	.section1-bev2		{padding-top:70px;display:block;position:relative;top:0;left:0;max-width:100%;text-align:center;text-indent:40px;}
+	.section1-bev2-txt	{display:block;position:relative;top:0;left:0;max-width:100%;text-align:center;margin-top:-30px;}
+	.section1-bev3		{padding-top:70px;display:block;position:relative;top:0;left:0;max-width:100%;text-align:center;text-indent:40px;}
+	.section1-bev3-txt	{display:block;position:relative;top:0;left:0;max-width:100%;text-align:center;margin-top:-30px;}
+	.section1-bev4		{padding-top:70px;display:block;position:relative;top:0;left:0;max-width:100%;text-align:center;text-indent:40px;}
+	.section1-bev4-txt	{display:block;position:relative; top:0; left:0; margin:50px auto;}
+	
+	.section3-content>ul>li:nth-child(2)>img.reward_txt3,
+	.section3-content>ul>li:nth-child(2)>img.reward_txt4,
+	.section3-content>ul>li:nth-child(2)>img.egiftCard_txt3{width:60%;}	
+	
+	#section5>div{height:690px;}
+	.section5-starbucks-reserve>li>img:nth-child(2){display:inline-block;width:90%;}
+	.section5-starbucks-reserve>li:last-child{bottom:-300px;}	
+	
+	.section6-19_summer_fav{width:90%;}
+	.section6-left-wrap>li>img.sec6MobileImg1{display:inline-block; width:80%; max-width:350px;}
+	.section6-left-wrap>li>img.sec6MobileImg2{display:inline-block; width:80%; max-width:440px;}	
+	
+	.section8-element-3>li>img.sec8MobileImg1{width:70%; max-width:70%;}
+	.section8-element-3>li>img.sec8MobileImg2{width:88%; max-width:88%;}
+
+		.section8-element-4{width:150px;}	
+
+		#footer>div>ul>li:nth-child(4)>a{padding:8px 0 10px 0; width:100%; max-width:93px;}
+
+}
+
+@media all and (max-width:400px){
+	.section3-content>ul>li:nth-child(2)>img.reward_txt3,
+	.section3-content>ul>li:nth-child(2)>img.reward_txt4,
+	.section3-content>ul>li:nth-child(2)>img.egiftCard_txt3{width:70%;}	
+
+	.section7-reserve_medal{
+		width:80%;
+	}
+	
+	.section8-element-1{z-index:1;display:block;position:absolute; top:0; left:50%; margin-left:-150px; width:90%; max-width:250px;}
+	.section8-element-1>img{width:100%;}	
+	
+	.section8-element-2{z-index:2;display:block;position:relative;top:30px;left:52%;  width:90%; max-width:150px; }	
+	.section8-element-2>img{width:100%;}	
+	
+}
+
+
+
+
+
+
